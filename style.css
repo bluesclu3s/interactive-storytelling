@@ -1,22 +1,35 @@
+@font-face {
+    font-family: 'Sofia Pro Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sofia Pro Light'), url('Sofia Pro Light Az.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Sofia Pro'), url('Sofia Pro Az.woff') format('woff');
+        }
+
 body {
     padding-left: 15%;
     padding-right: 15%;
     background-color: #FDEDEC;
+    color: #3d110c;
+    font-family: Sofia Pro Light;
   }
   
   h1 {
     font-size: 3em;
     color:#641E16;
-    font-family: Gill Sans;
+    font-family: Sofia Pro;
   }
   
   #byline {
     font-size: 1.1em;
-    font-family: Gill Sans;
   }
   
   p {
-    font-family:Gill Sans;
     font-size:1.3em;
     line-height:1.2em;
     padding-bottom:20px;
@@ -28,12 +41,10 @@ body {
   
   h3 {
     font-size: 1.5em;
-    font-family: Gill Sans;
   }
   
   li {
     font-size: 1.3em;
-    font-family: Gill Sans;
   }
   
   img{
@@ -49,7 +60,6 @@ body {
     border: 1px solid black;
     padding:10px;
     font-style:italic;
-    font-family:Gill Sans;
   }
   
   #content {
