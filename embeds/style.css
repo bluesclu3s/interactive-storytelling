@@ -1,0 +1,15 @@
+@font-face {
+    font-family:'Sofia Pro Light';
+    src: url('Sofia Pro Light Az.woff') format('woff');
+    }
+
+    header {
+        margin-bottom: 4rem;
+        padding: 2rem 0;
+        background-color: hsl(280, 36%, 63%);
+        border-bottom: 4px solid hsl(300, 28%, 33%);
+        color: hsl(300, 50%, 90%);
+      }
+
+      
+      
