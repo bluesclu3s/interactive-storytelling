@@ -1,15 +1,24 @@
-@font-face {
-    font-family:'Sofia Pro Light';
-    src: url('Sofia Pro Light Az.woff') format('woff');
-    }
+head{
+  width:auto;
+  margin: auto;
+}
 
-    header {
-        margin-bottom: 4rem;
-        padding: 2rem 0;
-        background-color: hsl(280, 36%, 63%);
-        border-bottom: 4px solid hsl(300, 28%, 33%);
-        color: hsl(300, 50%, 90%);
-      }
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  font-size: 1.25em;
+}
 
-      
-      
+#header{
+background-color:blanchedalmond;
+  text-align: center;
+}
+
+#byline{
+  font-size: 1.1em;
+}
+
+#content{
+  width: 60%;
+  margin: auto; 
+}
