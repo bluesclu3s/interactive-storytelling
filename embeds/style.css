@@ -10,8 +10,9 @@ body{
 }
 
 #header{
-background-color:blanchedalmond;
-  text-align: center;
+  padding: 15%;
+  text-align: left;
+  background-color: #fcd12a;
 }
 
 #byline{
